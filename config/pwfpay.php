@@ -2,14 +2,15 @@
 
 declare(strict_types=1);
 
+//Replace this values by entering your own Values and Secret  by visiting https://pwf.com
 return [
-    "apiUrl" => "http://api.pwftest.com",
-    "appToken" => "330b50beff5d4c0362d6a236c5ac9da2",
-    "merchantNo" => "2022071385311679",
-    "lang" => "CN",
+    "apiUrl" => "<!-- replace -->",
+    "appToken" => "<!-- replace -->",
+    "merchantNo" => "<!-- replace -->",
+    "lang" => "EN",
     
-    "merchantPrivateCertPath" => "/resources/Rsa/merchantPrivateKey.pem",
-    "pwfPublicCertPath" => "/resources/Rsa/PwfPublicKey.pem",
+    "merchantPrivateCertPath" => "<!-- replace -->",
+    "pwfPublicCertPath" => "<!-- replace -->",
 
-    "notifyUrl" => "https://www.notify.com/notify"
+    "notifyUrl" => "<!-- replace -->"
 ];

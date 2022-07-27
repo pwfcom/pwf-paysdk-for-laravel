@@ -3,7 +3,7 @@
 	"description" : "PWF PAY SDK For Laravel",
 	"type" : "library",
 	"license" : "Apache-2.0",
-	"version" : "1.0",
+	"version" : "1.1",
 	"autoload" : {
 		"psr-4" : {
 			"Pwf\\LaravelPay\\" : "src/"
@@ -11,7 +11,7 @@
 	},
 	"minimum-stability" : "dev",
 	"require" : {
-		"pwf/paysdk" : "dev-main"
+		"pwf/paysdk" : "^1.0"
 	},
 	"extra" : {
 		"laravel" : {

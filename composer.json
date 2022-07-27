@@ -11,8 +11,6 @@
 	},
 	"minimum-stability" : "dev",
 	"require" : {
-		"illuminate/support" : "^8.0 || ^9.0",
-		"illuminate/contracts" : "^8.0 || ^9.0",
 		"pwf/paysdk" : "dev-main"
 	},
 	"extra" : {

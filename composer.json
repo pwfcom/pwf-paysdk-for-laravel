@@ -16,7 +16,7 @@
 	"extra" : {
 		"laravel" : {
 			"providers" : [
-				"Pwf\\LaravelPay\\PayServiceProvider"
+				"Pwf\\LaravelPay\\PwfPayServiceProvider"
 			],
 			"aliases" : {
 				"PwfPay" : "Pwf\\LaravelPay\\Facades\\PwfPay"

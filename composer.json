@@ -1,12 +1,12 @@
 {
-	"name" : "pwf/paysdk",
+	"name" : "pwf/laravel-pay",
 	"description" : "PWF PAY SDK For Laravel",
 	"type" : "library",
 	"license" : "Apache-2.0",
 	"version" : "1.0",
 	"autoload" : {
 		"psr-4" : {
-			"Pwf\\Paysdk\\" : "src/"
+			"Pwf\\LaravelPay\\" : "src/"
 		}
 	},
 	"minimum-stability" : "dev",
@@ -14,5 +14,15 @@
 		"illuminate/support" : "^8.0 || ^9.0",
 		"illuminate/contracts" : "^8.0 || ^9.0",
 		"pwf/paysdk" : "dev-main"
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Pwf\\LaravelPay\\PayServiceProvider"
+			],
+			"aliases" : {
+				"PwfPay" : "Pwf\\LaravelPay\\Facades\\PwfPay"
+			}
+		}
 	}
 }

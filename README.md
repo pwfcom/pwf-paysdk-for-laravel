@@ -52,7 +52,7 @@ $result = PwfPay::wallet()->payAddress($params);
 print_r($result);
 ```
 
-具体使用说明请传送至 [https://github.com/yansongda/pay](https://github.com/yansongda/pay)
+具体使用说明请传送至 [https://github.com/pwfcom/pwf-paysdk-for-php](https://github.com/pwfcom/pwf-paysdk-for-php)
 
 ## License
 

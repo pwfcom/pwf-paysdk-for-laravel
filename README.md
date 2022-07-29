@@ -37,7 +37,6 @@ use PwfPay;
 
 $params = [
     "trade_name" => "trade_name",
-    "pay_type" => 1,
     "fiat_currency" => "EUR",
     "fiat_amount" => 0.01,
     "out_trade_no" => "order-001",

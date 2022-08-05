@@ -1,16 +1,16 @@
-## 依赖
+## 依賴
 
 - php >= 7.3 (v3.1.0 开始 >=7.4.0)
 - composer
 - laravel || lumen >= 8.0
 
-## 安装
+## 安裝
 
 ```Shell
 composer require pwf/laravel-pay
 ```
 
-### laravel 用户
+### laravel 用戶
 
 #### 配置文件
 
@@ -18,11 +18,11 @@ composer require pwf/laravel-pay
 php artisan vendor:publish --provider="Pwf\LaravelPay\PwfPayServiceProvider" --tag=pwf-pay
 ```
 
-### lumen 用户
+### lumen 用戶
 
 #### 配置文件
 
-请手动复制配置文件
+請手動複製配置文件
 
 #### service provider
 
@@ -51,7 +51,7 @@ $result = PwfPay::wallet()->payAddress($params);
 print_r($result);
 ```
 
-具体使用说明请传送至 [https://github.com/pwfcom/pwf-paysdk-for-php](https://github.com/pwfcom/pwf-paysdk-for-php)
+具體使用說明請傳送至 [https://github.com/pwfcom/pwf-paysdk-for-php](https://github.com/pwfcom/pwf-paysdk-for-php)
 
 ## License
 
